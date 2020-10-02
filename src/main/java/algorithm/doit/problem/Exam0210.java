@@ -1,8 +1,8 @@
-package algorithm.doit.practice;
+package algorithm.doit.problem;
 
 import java.util.Scanner;
 
-public class PhysicalExamination {
+public class Exam0210 {
   static final int VMAX = 21;
   
   static class PhyscData {
@@ -30,7 +30,7 @@ public class PhysicalExamination {
     dist[i] = 0;
     for (i = 0; i < dat.length; i++) {
       if (dat[i].vision >= 0.0 && dat[i].vision <= VMAX / 10.0)
-        dist[(int)dat[i].vision*10]++;
+        dist[(int) (dat[i].vision * 10)]++;
     }
   }
   
@@ -57,9 +57,17 @@ public class PhysicalExamination {
     distVision(x, vdist);
     
     System.out.println("\n시력분포");
-    for (int i = 0; i < VMAX; i++)
-      System.out.printf("%3.1f ~ : %2d명\n", i/10.0, vdist[i]);
+    for (int i = 0; i < VMAX; i++) {
+      System.out.printf("%3.1f ~ :", i/10.0);
+      printStars(vdist[i]);
+      System.out.println();
+    }
     
+  }
+  
+  public static void printStars(int n) {
+    for (int i = 0; i < n; i++) 
+      System.out.print('*');
   }
   
 }
