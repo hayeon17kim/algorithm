@@ -29,7 +29,17 @@ public class Exam0202 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int[] arr = {5, 10, 73, 2, -5, 42};
-    reverse(arr);
+    
+    System.out.print("요솟수 : ");
+    int num = sc.nextInt();
+    
+    int[] x = new int[num];
+    
+    for (int i = 0; i < num; i++) {
+      System.out.print("x[" + i + "] : ");
+      x[i] = sc.nextInt();
+    }
+    
+    reverse(x);
   }
 }
