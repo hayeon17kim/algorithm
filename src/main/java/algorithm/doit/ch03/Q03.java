@@ -1,15 +1,14 @@
 package algorithm.doit.ch03;
 
 public class Q03 {
-  public static void searchIdx(int[] a, int n, int key, int[]idx) {
-    StringBuilder sb = new StringBuilder();
+  public static int searchIdx(int[] a, int n, int key, int[]idx) {
+    int size = 0;
     for(int i = 0; i < a.length; i++) {
       if (a[i] == key) {
-        sb.append(i + " ");
+        idx[size++] = i;
       }
     }
-    
-    sb.toString().split(" ");
+    return size;
   }
   
   
