@@ -3,17 +3,20 @@ package algorithm.doit.ch04;
 import algorithm.doit.ch04.IntStack.EmptyIntStackException;
 import algorithm.doit.ch04.IntStack.OverflowIntStackException;
 
-public class Gstack<E> {
+public class Gstack <E> {
   private int max; // 스택 용량
   private int ptr; // 스택 포인터
   private E[] stk; // 스택 본
   
-  public class OverflowGstackException extends RuntimeException {
-    public OverflowGstackException() {}
+  // 실행할 때 예외：스택이 비어 있음
+  public static class EmptyGstackException extends RuntimeException {
+      public EmptyGstackException() {
+      }
   }
-  
-  public class EmptyGstackException extends RuntimeException {
-    public EmptyGstackException() {}
+  // 실행할 때 예외：스택이 가득 참
+  public static class OverflowGstackException extends RuntimeException {
+      public OverflowGstackException() {
+      }
   }
   
   public Gstack(int capacity) {
@@ -25,28 +28,27 @@ public class Gstack<E> {
       max = 0;
     }
   }
-  
-  public E push(E x) throws OverflowIntStackException {
+  public E push(E x) throws OverflowGstackException {
     if (ptr == max)
-      throw new OverflowIntStackException();
+      throw new OverflowGstackException();
     return stk[ptr++] = x;
   }
   
-  public int pop() throws EmptyIntStackException {
+  public E pop() throws EmptyGstackException {
     if (ptr == 0)
-      throw new EmptyIntStackException();
+      throw new EmptyGstackException();
     return stk[--ptr];
   }
   
-  public int peek() throws EmptyIntStackException {
+  public E peek() throws EmptyGstackException {
     if (ptr == 0)
-      throw new EmptyIntStackException();
+      throw new EmptyGstackException();
     return stk[ptr -1];
   }
   
-  public int indexOf(int key) {
+  public int indexOf(E key) {
     for (int i = ptr - 1; i <= 0; i--) {
-      if (stk[i] == key)
+      if (stk[i].equals(key))
         return i;
     }
     return -1;
@@ -85,4 +87,6 @@ public class Gstack<E> {
       System.out.println();
     }
   }
+  
+
 }
