@@ -23,7 +23,7 @@ public class Q3 {
   
   public Q3(int capacity) {
     ptrA = 0;
-    ptrB = max;
+    ptrB = capacity - 1; // ptr은 인덱스
     max = capacity;
     try {
       stk = new int[max];
@@ -33,7 +33,7 @@ public class Q3 {
   }
   
   public int push(WhichStack stack, int x) throws OverflowIntStackException {
-    if (ptrA - ptrB == 1) {
+    if (ptrA >= ptrB + 1) {
       throw new OverflowIntStackException();
     }
     switch (stack) {
@@ -47,11 +47,11 @@ public class Q3 {
   public int pop(WhichStack stack) throws EmptyIntStackException {
     switch (stack) {
       case stackA:
-        if (ptrA == 0)
+        if (ptrA <= 0)
           throw new EmptyIntStackException();
         return stk[--ptrA];
       default:
-        if (ptrB == 0)
+        if (ptrB >= max - 1)
           throw new EmptyIntStackException();
         return stk[++ptrB];
     }
@@ -64,11 +64,10 @@ public class Q3 {
           throw new EmptyIntStackException();
         return stk[ptrA - 1];
       default:
-        if (ptrB == 0)
+        if (ptrB == max - 1)
           throw new EmptyIntStackException();
         return stk[ptrB + 1];
     }
-    return -1;
   }
   
   public int indexOf(WhichStack stack, int key) {
@@ -78,14 +77,15 @@ public class Q3 {
           if (stk[i] == key)
             return i;
         }
-        return -1;
+        break;
       default:
         for (int i = ptrB + 1; i > max; i++) {
           if (stk[i] == key)
             return i;
         }
-        return -1;
+        break;
     }
+    return -1;
     
   }
   
@@ -96,6 +96,7 @@ public class Q3 {
     switch (stack) {
       case stackA:
         ptrA = 0;
+        break;
       default:
         ptrB = max;
     }
@@ -110,7 +111,7 @@ public class Q3 {
       case stackA:
         return ptrA;
       default:
-        return max - ptrB;
+        return max - ptrB - 1;
     }
   }
   
@@ -119,12 +120,12 @@ public class Q3 {
       case stackA:
         return ptrA <= 0;
       default:
-        return ptrB >= max;
+        return ptrB >= max - 1;
     }
   }
   
   public boolean isFull() {
-    return ptrA >= ptrB;
+    return ptrA >= ptrB + 1;
   }
   
   // 스택 안의 모든 데이터를 바닥 -> 꼭대기 순서로 출력
@@ -135,7 +136,7 @@ public class Q3 {
           System.out.println("스택이 비어있습니다.");
         else {
           for (int i = 0; i < ptrA; i++)
-            System.out.println(stk[i]);
+            System.out.println(stk[i] + " ");
           System.out.println();
         }
         break;
@@ -144,7 +145,7 @@ public class Q3 {
           System.out.println("스택이 비어있습니다.");
         else {
           for (int i = max; i > ptrB; i--)
-            System.out.println(stk[i]);
+            System.out.println(stk[i] + " ");
           System.out.println();
         }
         break;

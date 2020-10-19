@@ -56,6 +56,15 @@ public class IntQueue {
     return que[front];
   }
   
+  public int search(int x) {
+    for (int i = 0; i < num; i++) {
+      if (que[(front + i) % max] == x)
+        return i + 1;
+    }
+    return 0;
+  }
+  
+  
   public int indexOf(int x) {
     for (int i = 0; i < num; i++) {
       int idx = (i + front) % max;
