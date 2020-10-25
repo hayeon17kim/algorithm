@@ -9,7 +9,7 @@ class Recur3_05_05 {
 		int[] sstk = new int[100];
 		int ptr = -1;
 		int sw = 0;
-
+		
 		while (true) {
 			if (n > 0) {
 				ptr++;
