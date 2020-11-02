@@ -1,1 +1,194 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T08:56:08.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.2" etag="wt_3AY9A4Q3vb0wv37pb" type="github"><diagram id="v534OfSTmSY1Rs3My7nj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-02T02:06:52.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nJcDolKnotwuBlC4rE_j" version="13.8.8" type="github">
+  <diagram id="v534OfSTmSY1Rs3My7nj" name="Page-1">
+    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nooiiEJeadDAU5cNnabP-1" value="pms_board" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-3" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- title" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-4" value="pms_member" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-5" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- name&lt;br&gt;- email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-6" value="pms_project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-7" value="- no (PK)&lt;br style=&quot;font-size: 12px&quot;&gt;- title&lt;br&gt;- owner &lt;br&gt;- members" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-8" value="pms_task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-9" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- content&lt;br&gt;- owner" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="130" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-10" value="테이블 관계 설정 전" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-12" value="pms_board" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-13" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- title" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#CC0000;labelBackgroundColor=#CC0000;strokeColor=#CC0000;" edge="1" parent="1" source="nooiiEJeadDAU5cNnabP-14" target="nooiiEJeadDAU5cNnabP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-14" value="pms_member" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-15" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- name&lt;br&gt;- email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-16" value="pms_project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-17" value="- no (PK)&lt;br style=&quot;font-size: 12px&quot;&gt;- title&lt;br&gt;- owner int&amp;nbsp;&lt;span style=&quot;color: rgb(204 , 0 , 0)&quot;&gt;(FK)&lt;/span&gt;&lt;br&gt;- members" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-18" value="pms_task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-19" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- content&lt;br&gt;- owner" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-20" value="테이블 관계 설정 후" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-22" value="" style="endArrow=classic;html=1;fontSize=14;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="nooiiEJeadDAU5cNnabP-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#CC0000;fontSize=14;fontColor=#CC0000;endArrow=ERoneToMany;endFill=0;startArrow=ERzeroToMany;startFill=1;" edge="1" parent="1" source="nooiiEJeadDAU5cNnabP-23" target="nooiiEJeadDAU5cNnabP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-23" value="Project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="75" y="490" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-24" value="Member" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="195" y="490" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-25" value="1. kim&lt;br&gt;2. park&lt;br&gt;3. lee&lt;br&gt;4. yoo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="195" y="540" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-26" value="101. p1 (1,2,3)&lt;br&gt;102. p2 (1)&lt;br&gt;103. p3 (3)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="75" y="540" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-29" value="다 대 다 관계" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="105" y="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-30" value="&lt;span style=&quot;font-weight: normal; font-size: 11px;&quot;&gt;DBMS에서 다룰 수 없다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-31" value="pms_board" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-32" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- title" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-34" value="pms_member" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="450" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-35" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- name&lt;br&gt;- email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#CC0000;startArrow=ERzeroToMany;startFill=1;endArrow=ERoneToMany;endFill=0;strokeColor=#CC0000;fontSize=11;fontColor=#CC0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nooiiEJeadDAU5cNnabP-36" target="nooiiEJeadDAU5cNnabP-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-36" value="pms_project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="560" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-37" value="- no (PK)&lt;br style=&quot;font-size: 12px&quot;&gt;- title&lt;br&gt;- owner &lt;font color=&quot;#cc0000&quot;&gt;int&lt;/font&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(204 , 0 , 0)&quot;&gt;(FK)&lt;/span&gt;&lt;br&gt;- members" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-38" value="pms_task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="660" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-39" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- content&lt;br&gt;- owner" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="660" y="560" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-40" value="다대다 관계의 해소 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-41" value="" style="endArrow=classic;html=1;fontSize=14;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#CC0000;strokeColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="600" as="sourcePoint" />
+            <mxPoint x="500" y="577.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-43" value="&lt;font style=&quot;font-size: 9px&quot;&gt;다대다 관계를 저장하는 컬럼은 FK로 선언할 수 없다.&lt;br style=&quot;font-size: 9px&quot;&gt;왜? 한 컬럼에 여러 개의 값이 저장되기 때문이다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-44" value="pms_board" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="385" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-45" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- title" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="385" y="760" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-46" value="pms_member" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="485" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-47" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- name&lt;br&gt;- email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="485" y="760" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#CC0000;startArrow=ERzeroToMany;startFill=1;endArrow=ERoneToMany;endFill=0;strokeColor=#CC0000;fontSize=11;fontColor=#CC0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nooiiEJeadDAU5cNnabP-49" target="nooiiEJeadDAU5cNnabP-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-49" value="pms_project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="595" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-50" value="- no (PK)&lt;br style=&quot;font-size: 12px&quot;&gt;- title&lt;br&gt;- owner &lt;font color=&quot;#cc0000&quot;&gt;int&lt;/font&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(204 , 0 , 0)&quot;&gt;(FK)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="595" y="760" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-51" value="pms_task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="695" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-52" value="- no (pk)&lt;br style=&quot;font-size: 12px&quot;&gt;- content&lt;br&gt;- owner" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="695" y="760" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-53" value="다대다 관계의 해소 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="505" y="650" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-54" value="" style="endArrow=classic;html=1;fontSize=14;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#CC0000;strokeColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="595" y="800" as="sourcePoint" />
+            <mxPoint x="535" y="777.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#CC0000;startArrow=ERzeroToMany;startFill=1;endArrow=ERoneToMany;endFill=0;strokeColor=#CC0000;fontSize=9;fontColor=#CC0000;" edge="1" parent="1" source="nooiiEJeadDAU5cNnabP-56" target="nooiiEJeadDAU5cNnabP-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="850" />
+              <mxPoint x="515" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#CC0000;startArrow=ERzeroToMany;startFill=1;endArrow=ERoneToMany;endFill=0;strokeColor=#CC0000;fontSize=9;fontColor=#CC0000;" edge="1" parent="1" source="nooiiEJeadDAU5cNnabP-56" target="nooiiEJeadDAU5cNnabP-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="850" />
+              <mxPoint x="640" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-56" value="pms_member_project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="510" y="870" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-57" value="다대다 관계를 저장할 테이블 추가&lt;br&gt;=&amp;gt; &lt;b&gt;관계테이블&lt;/b&gt;이라고 부른다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="870" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nooiiEJeadDAU5cNnabP-58" value="(PK) member_no (FK)&lt;br style=&quot;font-size: 12px&quot;&gt;(PK) project_no (FK)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="920" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
