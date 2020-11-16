@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T13:31:37.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="L4YVGZ29oPrl7jwWu4rP" version="13.9.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-11-16T17:32:21.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mGUgJcCu7hEw5dLGqmUb" version="13.9.7" type="github" pages="9">
   <diagram id="v534OfSTmSY1Rs3My7nj" name="Page-1">
     <mxGraphModel dx="1422" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -860,7 +860,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="doRI324WOdimIR4PXys7" name="Page-5">
-    <mxGraphModel dx="1422" dy="732" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="721" dy="722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DIoZkCJvKmoQoHGzoi1d-0" />
         <mxCell id="DIoZkCJvKmoQoHGzoi1d-1" parent="DIoZkCJvKmoQoHGzoi1d-0" />
@@ -1311,7 +1311,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdfYvbuVxk3pdRRdUstI" name="Page-6">
-    <mxGraphModel dx="1422" dy="732" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="721" dy="722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Vb8AYOXGX1U0QVl6Q7O7-0" />
         <mxCell id="Vb8AYOXGX1U0QVl6Q7O7-1" parent="Vb8AYOXGX1U0QVl6Q7O7-0" />
@@ -1415,7 +1415,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1vBNHbN7bfA2tpxbkEsm" name="Page-7">
-    <mxGraphModel dx="569" dy="293" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="288" dy="289" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="COOBqWTLQb2QUwo7gbPt-0" />
         <mxCell id="COOBqWTLQb2QUwo7gbPt-1" parent="COOBqWTLQb2QUwo7gbPt-0" />
@@ -1596,7 +1596,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e8h1_Ze7BHPd0MWi3KV8" name="Page-8">
-    <mxGraphModel dx="569" dy="293" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="497" dy="498" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HzecBXQDSwZlUNpG3C6P-0" />
         <mxCell id="HzecBXQDSwZlUNpG3C6P-1" parent="HzecBXQDSwZlUNpG3C6P-0" />
@@ -1611,7 +1611,7 @@
         <mxCell id="HzecBXQDSwZlUNpG3C6P-4" value="Command" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="HzecBXQDSwZlUNpG3C6P-1">
           <mxGeometry x="30" y="80" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HzecBXQDSwZlUNpG3C6P-9" value="4. call&lt;br&gt;5. 트랜잭션 종료" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="HzecBXQDSwZlUNpG3C6P-1" source="HzecBXQDSwZlUNpG3C6P-5" target="HzecBXQDSwZlUNpG3C6P-7">
+        <mxCell id="HzecBXQDSwZlUNpG3C6P-9" value="트랜잭션 시작&lt;br&gt;4. call&lt;br&gt;트랜잭션 종료" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="HzecBXQDSwZlUNpG3C6P-1" source="HzecBXQDSwZlUNpG3C6P-5" target="HzecBXQDSwZlUNpG3C6P-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HzecBXQDSwZlUNpG3C6P-11" value="2. openSession()" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="HzecBXQDSwZlUNpG3C6P-1" source="HzecBXQDSwZlUNpG3C6P-5" target="HzecBXQDSwZlUNpG3C6P-10">
@@ -1792,7 +1792,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="33YLXThZ9f-Qf4iKkOli" name="Page-9">
-    <mxGraphModel dx="677" dy="349" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="176" dy="286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kDSaI9HQN6yeS0NNxaK1-0" />
         <mxCell id="kDSaI9HQN6yeS0NNxaK1-1" parent="kDSaI9HQN6yeS0NNxaK1-0" />
@@ -1818,7 +1818,7 @@
         <mxCell id="SLH6P_p7x2BnBPJLEblC-11" value="4. 보관" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=10;fontColor=#000000;" edge="1" parent="kDSaI9HQN6yeS0NNxaK1-1" source="kDSaI9HQN6yeS0NNxaK1-3" target="SLH6P_p7x2BnBPJLEblC-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SLH6P_p7x2BnBPJLEblC-13" value="2. 보관된&lt;br&gt;SqlSession 리턴" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=10;fontColor=#000000;" edge="1" parent="kDSaI9HQN6yeS0NNxaK1-1" source="kDSaI9HQN6yeS0NNxaK1-3" target="SLH6P_p7x2BnBPJLEblC-9">
+        <mxCell id="SLH6P_p7x2BnBPJLEblC-13" value="2. 보관된&lt;br&gt;SqlSession 리턴" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=10;fontColor=#CC0000;" edge="1" parent="kDSaI9HQN6yeS0NNxaK1-1" source="kDSaI9HQN6yeS0NNxaK1-3" target="SLH6P_p7x2BnBPJLEblC-9">
           <mxGeometry y="20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="110" />
@@ -1871,7 +1871,7 @@
         <mxCell id="SLH6P_p7x2BnBPJLEblC-2" value="DAO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;align=center;" vertex="1" parent="kDSaI9HQN6yeS0NNxaK1-1">
           <mxGeometry x="399" y="190" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SLH6P_p7x2BnBPJLEblC-14" value="1. openSession()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=10;fontColor=#000000;" edge="1" parent="kDSaI9HQN6yeS0NNxaK1-1" source="SLH6P_p7x2BnBPJLEblC-9" target="kDSaI9HQN6yeS0NNxaK1-3">
+        <mxCell id="SLH6P_p7x2BnBPJLEblC-14" value="1. openSession()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=10;fontColor=#CC0000;" edge="1" parent="kDSaI9HQN6yeS0NNxaK1-1" source="SLH6P_p7x2BnBPJLEblC-9" target="kDSaI9HQN6yeS0NNxaK1-3">
           <mxGeometry x="-0.5" y="20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="120" />
@@ -2032,6 +2032,15 @@
         </mxCell>
         <mxCell id="XBQQQ8QYIPdC4KXlrCoA-49" value="MVC 구조" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#97D077;fontStyle=1" vertex="1" parent="kDSaI9HQN6yeS0NNxaK1-1">
           <mxGeometry x="92.5" y="510" width="57" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lspChdbbNRd8ZRbKiXzy-0" value="&amp;lt;&amp;lt;original&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="kDSaI9HQN6yeS0NNxaK1-1">
+          <mxGeometry x="401" y="108" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZJmU85Bffv1pOLHSEMi-0" value="SqlSessionFactory의 Proxy 만들기" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="kDSaI9HQN6yeS0NNxaK1-1">
+          <mxGeometry x="179" y="33" width="222" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZJmU85Bffv1pOLHSEMi-1" value="&amp;lt;&amp;lt;proxy&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="kDSaI9HQN6yeS0NNxaK1-1">
+          <mxGeometry x="185" y="110" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
