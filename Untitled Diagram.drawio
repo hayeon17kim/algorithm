@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T02:16:13.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yw6XKnR7kliPw8VUu8Yr" version="14.1.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-12-29T02:26:19.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="30v_pyGrEH6c6FMP9472" version="14.1.3" type="github" pages="10">
   <diagram id="v534OfSTmSY1Rs3My7nj" name="Page-1">
     <mxGraphModel dx="2062" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4171,12 +4171,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="79HiLZ2OuWLt42fjTeuJ-23" value="2. 대행" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="4tgTaDqDd8TLEn1MeAjp-1" source="79HiLZ2OuWLt42fjTeuJ-16" target="79HiLZ2OuWLt42fjTeuJ-20">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="79HiLZ2OuWLt42fjTeuJ-23" value="2. HTTP&lt;br&gt;요청을&lt;br&gt;대행" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="4tgTaDqDd8TLEn1MeAjp-1" source="79HiLZ2OuWLt42fjTeuJ-16" target="79HiLZ2OuWLt42fjTeuJ-20">
+          <mxGeometry x="0.0254" y="15" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-319" y="97" />
               <mxPoint x="-319" y="97" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="79HiLZ2OuWLt42fjTeuJ-16" value="S1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4tgTaDqDd8TLEn1MeAjp-1">
